@@ -1,0 +1,6 @@
+Bulma template to use
+https://bulmatemplates.github.io/bulma-templates/ [Hello Parallax]
+
+Scrolling design preference, however can change no problem.
+
+embedding maps and apps? 
