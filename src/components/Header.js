@@ -15,6 +15,7 @@ function Header(props) {
     <header>
       <h1>My Portfolio Page</h1>
       <nav style={navStyle}>
+      <h2>Header - Links within the page (Personal life, working career, skills, projects, contact)</h2>
         <Link to="/">
           <div>HOME</div>
         </Link>
