@@ -13,22 +13,23 @@ function Header(props) {
 
   return (
     <header>
+    <img className="logo" src="https://i.imgur.com/ClHe2tc.png" alt="logo"></img>
       <h1>My Portfolio Page</h1>
       <nav style={navStyle}>
         <Link to="/">
-          <div>HOME</div>
+          <div className="link">HOME</div>
         </Link>
         <Link to="/about">
-          <div>Personal life</div>
+          <div className="link">Personal life</div>
         </Link>
         <Link to="/projects">
-          <div>PROJECTS</div>
+          <div className="link">PROJECTS</div>
+        </Link>
+        <Link to="/working-career">
+          <div className="link">working career</div>
         </Link>
         <Link to="/">
-          <div>working career(NL)</div>
-        </Link>
-        <Link to="/">
-          <div>contact(nl)</div>
+          <div className="link">contact(nl)</div>
         </Link>
       </nav>
     </header>
