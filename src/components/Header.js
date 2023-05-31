@@ -13,8 +13,7 @@ function Header(props) {
 
   return (
     <header>
-    <img className="logo" src="https://i.imgur.com/ClHe2tc.png" alt="logo"></img>
-      <h1>My Portfolio Page</h1>
+      <h1>Welcome to my portfolio.</h1>
       <nav style={navStyle}>
         <Link to="/">
           <div className="link">HOME</div>
