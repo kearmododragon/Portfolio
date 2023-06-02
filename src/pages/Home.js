@@ -24,9 +24,11 @@ function About(props) {
   const loaded = () => (
     <div>
       <p>{about.bio}</p>
+      <p>Header to be wiped clean, will be replaced with links further down the page</p>
       <p>Hi i'm Ciaran and welcome to my portfolio</p>
       <p>About me. This is where i'm going to put the sentance about me.</p>
       <p>Projects. This is where i'm going to put cards about my projects.</p>
+      <p>Footer to include my name and .png icons for linkedin, insta & cv</p>
     </div>
   );
 
