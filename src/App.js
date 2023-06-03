@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Working from "./pages/Working";
+import 'bulma/css/bulma.min.css';
 
 function App() {
   // URL should have YOUR HEROKU URL for your backend (will build later), make sure you include the trailing slash
