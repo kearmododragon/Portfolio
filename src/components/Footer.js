@@ -9,7 +9,7 @@ function Footer(props) {
       <a href="https://www.instagram.com/kearmododragon/" target="_blank" rel="noopener noreferrer">
         <img src={instagramIcon} alt="Instagram" />
       </a>
-      <a href="../storage/docs/cv.pdf" target="_blank" rel="noopener noreferrer">
+      <a href="https://docs.google.com/document/d/1ayxaItR3ojyBvfQQWqcHQ73ov_Bm6-6t/export?format=pdf" target="_blank" rel="noopener noreferrer">
         <img src={CVIcon} alt="CV" />
       </a>
       <a href="https://www.linkedin.com/in/ciarankearney92/" target="_blank" rel="noopener noreferrer">
