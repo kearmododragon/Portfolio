@@ -3,7 +3,9 @@ function Header(props) {
 
   return (
     <header>
-      <h1>Welcome to my portfolio.</h1>
+    <a href="#Home">Home</a>
+    <a href="#About">About Me</a>
+    <a href="#Projects">Projects</a>
     </header>
   );
 }
