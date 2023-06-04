@@ -43,6 +43,7 @@ function About(props) {
 
       <div id="About">
       <p>About me.</p> </div>
+      <section className="bio">
       <p>----- THIS 
       IS 
       NOT 
@@ -56,7 +57,7 @@ function About(props) {
       I 
       WAS 
       TAKING
-       ----- Below you will have access to my previous work, all completed while studying at General Assembley. I currently work for Mercedes-Benz as a Logistics Specialist however I want to follow my passion and am looking to take a leap into the world of Software Engineering. I have a dog named {about.dog} and she takes up most of my life now. She's a black Galgo and I love her to pieces. I play football in my spare time and when i'm feeling less active like to relax by playing video games, original I know.  Ciaran Kearney graduated from General Assembley with a qualification in May 2023. He enjoys working in full-stack developments and looks forward to improving his skills in order to both excell at his chosen career and also to be able to work on passion projects.</p>
+       ----- Below you will have access to my previous work, all completed while studying at General Assembley. I currently work for Mercedes-Benz as a Logistics Specialist however I want to follow my passion and am looking to take a leap into the world of Software Engineering. I have a dog named {about.dog} and she takes up most of my life now. She's a black Galgo and I love her to pieces. I play football in my spare time and when i'm feeling less active like to relax by playing video games, original I know.  Ciaran Kearney graduated from General Assembley with a qualification in May 2023. He enjoys working in full-stack developments and looks forward to improving his skills in order to both excell at his chosen career and also to be able to work on passion projects.</p></section>
       <div id="Projects">
       <p>Projects.</p></div>
       {projects.map((project) => (

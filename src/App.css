@@ -3,8 +3,9 @@ body {
   background: linear-gradient(0deg, rgba(2,24,89,1) 0%, rgba(4,66,191,1) 100%);
 }
 
-footer{
-  background-color: azure;
+.footer {
+  background-color: rgb(255, 0, 0);
+  color: white;
 }
 
 .big-box {
@@ -33,6 +34,6 @@ footer{
   font-size: 10rem;
 }
 
-About{
-  color: azure;
+.bio{
+  color: rgb(255, 240, 240);
 }
