@@ -2,7 +2,7 @@ function Header(props) {
   //inline style for the nav tag
 
   return (
-    <header>
+    <header style={{ backgroundColor: "blue" }}>
 <a href="#Home" style={{ position: "fixed", top: "10px", right: "10px", marginRight: "100px" }}>
   Home
 </a>

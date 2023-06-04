@@ -1,0 +1,38 @@
+body {
+  background: rgb(2,24,89);
+  background: linear-gradient(0deg, rgba(2,24,89,1) 0%, rgba(4,66,191,1) 100%);
+}
+
+footer{
+  background-color: azure;
+}
+
+.big-box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box {
+  padding: 200px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: azure;
+  font-size: 30px;
+  box-shadow: 0 0 100px rgba(255, 255, 255, 0.1);
+}
+
+.first-line {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.second-line {
+  color: white;
+  font-size: 10rem;
+}
+
+About{
+  color: azure;
+}

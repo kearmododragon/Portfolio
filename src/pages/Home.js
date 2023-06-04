@@ -32,10 +32,15 @@ function About(props) {
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (
-    <div>
     <div id="Home">
-      <p>Hi, I'm Ciaran.</p></div>
-      <p>Welcome to my portfolio</p>
+<section className="big-box">
+  <div className="text-box">
+    <p>Hi, I'm Ciaran.</p>
+    <p>Welcome to my portfolio.</p>
+  </div>
+</section>
+
+
       <div id="About">
       <p>About me.</p> </div>
       <p>----- THIS 
