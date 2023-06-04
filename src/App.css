@@ -8,6 +8,11 @@ body {
   color: white;
 }
 
+.header{
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+
 .big-box {
   height: 100vh;
   display: flex;
