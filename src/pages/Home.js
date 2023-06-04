@@ -42,37 +42,34 @@ function About(props) {
 
 
       <div id="About">
-      <p>About me.</p> </div>
+      <p className="titles">About me.</p> </div>
       <section className="bio">
-      <p>----- THIS 
-      IS 
-      NOT 
-      TO 
-      BE 
-      KEPT 
-      THIS 
-      WAS 
-      JUST 
-      NOTES 
-      I 
-      WAS 
-      TAKING
+      <p>----- THIS IS NOT TO BE KEPT THIS WAS JUST NOTES I WAS TAKING
        ----- Below you will have access to my previous work, all completed while studying at General Assembley. I currently work for Mercedes-Benz as a Logistics Specialist however I want to follow my passion and am looking to take a leap into the world of Software Engineering. I have a dog named {about.dog} and she takes up most of my life now. She's a black Galgo and I love her to pieces. I play football in my spare time and when i'm feeling less active like to relax by playing video games, original I know.  Ciaran Kearney graduated from General Assembley with a qualification in May 2023. He enjoys working in full-stack developments and looks forward to improving his skills in order to both excell at his chosen career and also to be able to work on passion projects.</p></section>
       <div id="Projects">
-      <p>Projects.</p></div>
-      {projects.map((project) => (
-        <div key={project.id}>
-          <h1>{project.name}</h1>
-          <img src={project.image} alt={project.name} />
-          <a href={project.git}>
-            <button>Github</button>
-          </a>
-          <a href={project.live}>
-            <button>Live site</button>
-          </a>
-        </div>
-      ))}
-      <p>Footer to include my name and .png icons for linkedin, insta & cv</p>
+      <p className="titles">Projects.</p></div>
+    <div className="container">
+      <div className="columns is-multiline">
+        {projects.map((project) => (
+          <div key={project.id} className="column is-one-third">
+            <div className="card">
+              <div className="card-content">
+                <h1 className="title has-text-white">{project.name}</h1>
+                <img src={project.image} alt={project.name} />
+                <div className="buttons">
+                  <a href={project.git} className="button is-primary">
+                    Github
+                  </a>
+                  <a href={project.live} className="button is-primary">
+                    Live site
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
     </div>
   );
 

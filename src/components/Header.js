@@ -1,17 +1,16 @@
+import '../App.css';
 function Header(props) {
-  //inline style for the nav tag
-
   return (
    
-      <header style={{ backgroundColor: "blue" }}>
- <div className="header">
-        <a href="#Home" style={{ position: "fixed", top: "10px", right: "10px", marginRight: "100px" }}>
+      <header className='header'>
+ <div className="header-content">
+        <a className="hello" href="#Home" style={{ position: "fixed", top: "10px", right: "10px", marginRight: "50px" }}>
           Home
         </a>
-        <a href="#About" style={{ position: "fixed", top: "10px", right: "10px", marginRight: "200px" }}>
+        <a className="hello" href="#About" style={{ position: "fixed", top: "10px", right: "10px", marginRight: "100px" }}>
           About Me
         </a>
-        <a href="#Projects" style={{ position: "fixed", top: "10px", right: "10px", marginRight: "300px" }}>
+        <a className="hello" href="#Projects" style={{ position: "fixed", top: "10px", right: "10px", marginRight: "179px" }}>
           Projects
         </a>
 

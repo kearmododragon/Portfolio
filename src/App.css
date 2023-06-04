@@ -1,6 +1,14 @@
 body {
   background: rgb(2,24,89);
   background: linear-gradient(0deg, rgba(2,24,89,1) 0%, rgba(4,66,191,1) 100%);
+  margin: 0;
+}
+
+.titles {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  margin-left: 10%;
+  margin-bottom: 10%;
 }
 
 .footer {
@@ -8,8 +16,7 @@ body {
   color: white;
 }
 
-.header{
-  background-color: rgb(255, 0, 0);
+.hello {
   color: white;
 }
 
@@ -21,7 +28,7 @@ body {
 }
 
 .text-box {
-  padding: 200px;
+  padding: 20%;
   background-color: rgba(255, 255, 255, 0.1);
   color: azure;
   font-size: 30px;
@@ -36,9 +43,14 @@ body {
 
 .second-line {
   color: white;
-  font-size: 10rem;
+  font-size: 100rem;
 }
 
 .bio{
   color: rgb(255, 240, 240);
+  padding: 10%;
+  font-size: 1rem;
+  border-color: brown;
+  border: 10px;
 }
+
