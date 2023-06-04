@@ -19,6 +19,10 @@ body {
 .hello {
   color: white;
 }
+.hello:hover {
+  color: #f25c05;
+}
+
 
 .big-box {
   height: 100vh;
