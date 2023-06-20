@@ -1,7 +1,7 @@
 import React from "react";
-import instagramIcon from "../Storage/Icons/instagram.png";
-import CVIcon from "../Storage/Icons/CV.png";
-import LinkedinIcon from "../Storage/Icons/linkedin.png";
+import instagramIcon from "../Storage/Icons/instagram2.png";
+import CVIcon from "../Storage/Icons/CV2.png";
+import LinkedinIcon from "../Storage/Icons/linkedin2.png";
 import '../App.css';
 
 function Footer(props) {
@@ -13,7 +13,7 @@ function Footer(props) {
         <a href="https://www.instagram.com/kearmododragon/" target="_blank" rel="noopener noreferrer">
           <img
             className="Footer-icon"
-            src={instagramIcon2}
+            src={instagramIcon}
             alt="Instagram"
             style={{ width: "40px", height: "40px", position: "fixed", bottom: "10px", right: "10px" }}
           />
@@ -21,7 +21,7 @@ function Footer(props) {
         <a href="https://docs.google.com/document/d/1ayxaItR3ojyBvfQQWqcHQ73ov_Bm6-6t/export?format=pdf" target="_blank" rel="noopener noreferrer">
           <img
             className="Footer-icon"
-            src={CVIcon2}
+            src={CVIcon}
             alt="CV"
             style={{ width: "40px", height: "40px", position: "fixed", bottom: "10px", right: "60px" }}
           />
@@ -29,7 +29,7 @@ function Footer(props) {
         <a href="https://www.linkedin.com/in/ciarankearney92/" target="_blank" rel="noopener noreferrer">
           <img
             className="Footer-icon"
-            src={LinkedinIcon2}
+            src={LinkedinIcon}
             alt="LinkedIn"
             style={{ width: "40px", height: "40px", position: "fixed", bottom: "10px", right: "110px" }}
           />
