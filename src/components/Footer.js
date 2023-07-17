@@ -18,14 +18,6 @@ function Footer(props) {
             style={{ width: "40px", height: "40px", position: "fixed", bottom: "10px", right: "10px" }}
           />
         </a>
-        <a href="https://docs.google.com/document/d/1ayxaItR3ojyBvfQQWqcHQ73ov_Bm6-6t/export?format=pdf" target="_blank" rel="noopener noreferrer">
-          <img
-            className="Footer-icon"
-            src={CVIcon}
-            alt="CV"
-            style={{ width: "40px", height: "40px", position: "fixed", bottom: "10px", right: "60px" }}
-          />
-        </a>
         <a href="https://www.linkedin.com/in/ciarankearney92/" target="_blank" rel="noopener noreferrer">
           <img
             className="Footer-icon"
