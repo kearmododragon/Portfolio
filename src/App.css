@@ -2,6 +2,8 @@ body {
   background: rgb(2,24,89);
   background: linear-gradient(0deg, rgba(2,24,89,1) 0%, rgba(4,66,191,1) 100%);
   margin: 0;
+  margin-bottom: 0;
+  overflow: hidden;
 }
 
 .titles {
@@ -19,10 +21,10 @@ body {
 .hello {
   color: white;
 }
+
 .hello:hover {
   color: #f25c05;
 }
-
 
 .big-box {
   height: 100vh;
@@ -72,3 +74,24 @@ body {
   gap: 15px;
 }
 
+.footer {
+  background: none;
+}
+.equal-height-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-content {
+  flex: 1;
+}
