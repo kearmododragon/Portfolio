@@ -61,14 +61,18 @@ function About(props) {
               <div className="card">
                 <div className="card-content">
                   <h1 className="title has-text-black">{project.name}</h1>
-                  <img src={project.image} alt={project.name} />
+                  <img src={project.image} className="project-image"/>
                   <div className="buttons">
-                    <a href={project.git} className="button is-primary">
-                      Github
-                    </a>
-                    <a href={project.live} className="button is-primary">
-                      Live site
-                    </a>
+                  {project.git && (
+                <a href={project.git} className="button is-primary">
+                  Github
+                </a>
+              )}
+              {project.live && (
+                <a href={project.live} className="button is-primary">
+                  Live site
+                </a>
+              )}
                   </div>
                 </div>
               </div>
@@ -77,6 +81,7 @@ function About(props) {
         </div>
       </div>
     </div>
+    
 
   );
   return about ? loaded() : <h1>Loading...</h1>;

@@ -26,6 +26,15 @@ function Footer(props) {
           />
         </a>
       </div>
+
+      
+    <form action="https://formsubmit.co/ckearney1992@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Name" required></input>
+    <input type="hidden" name="_next" value="https://kearmododragon.com/thankyou"></input> 
+    <input type="email" name="email" placeholder="Email Address" required></input>
+    <input type="text" name="message" placeholder="Write your message here" required></input>
+    <button type="submit">Send</button>
+    </form>
     </footer>
   );
 }
