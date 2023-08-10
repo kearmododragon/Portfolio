@@ -85,7 +85,7 @@ function About(props) {
         <div>
     <div class="container">
 	<div class="row">
-			<h1>Looking to contact me?</h1>
+			<h1><br></br>Looking to contact me?</h1>
 	</div>
 	<div class="row">
   <h4 style={{ textAlign: 'center' }}>I'd love to hear from you!</h4>
