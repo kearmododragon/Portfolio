@@ -8,7 +8,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: 3rem;
   margin-left: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .footer {
@@ -52,7 +52,7 @@ body {
 
 .bio{
   color: rgb(255, 240, 240);
-  padding: 10%;
+  padding: 5%;
   font-size: 1rem;
   border-color: brown;
   border: 10px;
