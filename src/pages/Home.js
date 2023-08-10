@@ -30,7 +30,7 @@ function About(props) {
   }, []);
 
   const loaded = () => (
-    <div id="Home">
+    <><div id="Home">
       <section className="big-box">
         <div className="text-box">
           <p>Hi, I'm Ciaran.</p>
@@ -61,18 +61,18 @@ function About(props) {
               <div className="card">
                 <div className="card-content">
                   <h1 className="title has-text-black">{project.name}</h1>
-                  <img src={project.image} className="project-image"/>
+                  <img src={project.image} className="project-image" />
                   <div className="buttons">
-                  {project.git && (
-                <a href={project.git} className="button is-primary">
-                  Github
-                </a>
-              )}
-              {project.live && (
-                <a href={project.live} className="button is-primary">
-                  Live site
-                </a>
-              )}
+                    {project.git && (
+                      <a href={project.git} className="button is-primary">
+                        Github
+                      </a>
+                    )}
+                    {project.live && (
+                      <a href={project.live} className="button is-primary">
+                        Live site
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
@@ -80,8 +80,55 @@ function About(props) {
           ))}
         </div>
       </div>
-    </div>
-  );
+    </div><div>
+        <section>
+        <div>
+    <div class="container">
+	<div class="row">
+			<h1>Looking to contact me?</h1>
+	</div>
+	<div class="row">
+  <h4 style={{ textAlign: 'center' }}>I'd love to hear from you!</h4>
+	</div>
+  <form action="https://formsubmit.co/ckearney1992@gmail.com" method="POST" >
+	<div class="row input-container">
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<input type="text" name="name" required />
+					<label>Name</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input">
+					<input type="text" name="email" required />
+					<label>Email</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input" style={{float: 'right'}}>
+					<input type="text"  />
+					<label>Phone Number (optional)</label> 
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<textarea name="message" required></textarea>
+					<label>Message</label>
+				</div>
+			</div>
+      <input type="hidden" name="_next" value="https://kearmododragon.com" /> 
+      <input type="hidden" name="_captcha" value="false" />
+			<div class="col-xs-12">
+      <button style={{ backgroundColor: '#1E90FF', borderRadius: '5px', padding: '10px 20px', color: '#fff', border: 'none' }}>Send Message</button>
+
+			</div>
+
+	</div>
+  </form>
+</div></div>
+        </section>
+      </div></>
+);
   return about ? loaded() : <h1>Loading...</h1>;
 }
 
