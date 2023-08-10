@@ -81,8 +81,6 @@ function About(props) {
         </div>
       </div>
     </div>
-    
-
   );
   return about ? loaded() : <h1>Loading...</h1>;
 }

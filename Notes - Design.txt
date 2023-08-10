@@ -142,3 +142,30 @@ input {
   align-items: center;
   justify-content: center;
 }
+
+
+
+
+
+
+
+<section>
+  <form action="https://formsubmit.co/ckearney1992@gmail.com" method="POST" className="form-horizontal" style={{ paddingTop: '50px', paddingLeft: '50px' }}>
+    <div className="form-group">
+      <input type="text" id="name" name="name" placeholder='Name' required />
+    </div>
+    
+    <div className="form-group">
+      <input type="email" id="email" name="email" placeholder='Email Address' required />
+    </div>
+    
+    <div className="form-group">
+      <textarea id="message" name="message" rows="5" placeholder='Type your message here' required />
+    </div>
+    
+    <input type="hidden" name="_next" value="https://kearmododragon.com" /> 
+    <input type="hidden" name="_captcha" value="false" />
+    
+    <button type="submit">Send</button>
+  </form>
+</section>
