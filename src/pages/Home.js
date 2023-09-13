@@ -50,7 +50,9 @@ function About(props) {
 
         <p>At the weekends I play football for R.K.H.S.V Heer in Maastricht. I'm entering my third season with the team having won the league in my first season, getting promoted and finishing second the next. I covered in goal during the end of the season and managed to pick up "Goalkeeper of the season" at the end of year awards. We are looking forward to our first season in the 4th Klasse.</p><br></br>
 
-        <p>Beyond sport, work and my family I love to travel. Whether it's a solo trip, visiting friends of travelling with my partner getting away from where I'm based for a while is unbeatable. I've currently travelled to 40 different countries and i'm not looking to stop. My most recent trip was to Canada and the United states. in 2 weeks I flew to Toronto to watch the Maple Leafs play and see Niagra falls, then a flight to Chicago to explore the windy city. Next a drive to Cincinnati with a stop off at Casey to see the worlds largest rocking chair. I spent my birthday in Cincinnati watching the Bengals beat the Falcons before ending my trip with a few days in New York eating $1 pizza's. Next stop; Wales.</p>
+        <p>Beyond sport, work and my family I love to travel. Whether it's a solo trip, visiting friends of travelling with my partner getting away from where I'm based for a while is unbeatable. I've currently travelled to 40 different countries and i'm not looking to stop. My most favourite trip so far was to Canada and the United states. In 2 weeks, I flew to Toronto to watch the Maple Leafs play and see Niagra falls, then a flight to Chicago to explore the windy city. Next a drive to Cincinnati with a stop off at Casey to see the worlds largest rocking chair. I spent my birthday in Cincinnati watching the Bengals beat the Falcons before ending my trip with a few days in New York eating $1 pizza's. 
+        
+        My last trip, I went to Riga, Helsinki and Tallinn with my partner. On the 10th September I took part in the Tallinn marathon completing it in 4:41:11.</p>
       </section>
       <div id="Projects">
         <p className="titles">Projects.</p></div>
