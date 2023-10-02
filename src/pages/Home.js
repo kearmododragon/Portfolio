@@ -54,6 +54,10 @@ function About(props) {
         
         On my most recent trip, I went to Riga, Helsinki and Tallinn with my partner. On the 10th September I took part in the Tallinn marathon completing it in 4:41:11.</p>
       </section>
+
+      <p>Insert images here of the languages/systems i've used</p>
+      <p> Also get a list of everything that you have experience in</p>
+      <p>Python, React, HTML, CSS, Django, PostgreSQL, Bulma, Bootstrap, AWS, Mongo</p>
       <div id="Projects">
         <p className="titles">Projects.</p></div>
       <div className="container">
