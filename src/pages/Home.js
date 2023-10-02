@@ -54,21 +54,6 @@ function About(props) {
         
         On my most recent trip, I went to Riga, Helsinki and Tallinn with my partner. On the 10th September I took part in the Tallinn marathon completing it in 4:41:11.</p>
       </section>
-      <div id="Skills">
-    <section className="images-skills">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="React" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Python" />
-        <img src="https://assets.stickpng.com/images/5847f5bdcef1014c0b5e489c.png" alt="HTML" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="CSS" />
-        <img src="https://www.djangoproject.com/m/img/logos/django-logo-positive.png" alt="Django" />
-        <img src="https://w7.pngwing.com/pngs/441/460/png-transparent-postgresql-plain-wordmark-logo-icon-thumbnail.png" alt="PostgreSQL" />
-        <img src="https://bulma.io/assets/Bulma%20Logo.png" alt="Bulma" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="Bootstrap" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png" alt="AWS" />
-        <img src="https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png" alt="MongoDB" />
-    </section>
-</div>
-
 
       <div id="Projects">
         <p className="titles">Projects.</p></div>
@@ -79,7 +64,7 @@ function About(props) {
               <div className="card">
                 <div className="card-content">
                   <h1 className="title has-text-black">{project.name}</h1>
-                  <img src={project.image} className="project-image" />
+                  <img src={project.image} className="project-image" alt="{project.name}"/>
                   <div className="buttons">
                     {project.git && (
                       <a href={project.git} className="button is-primary">
@@ -103,46 +88,63 @@ function About(props) {
         <div>
     <div class="container">
 	<div class="row">
+      <p className="titles">Skillset.</p>
+      <div id="Skills" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+    <section className="images-skills" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '25px', maxWidth: '800px', width: '100%' }}>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="React" style={{ width: '100px', height: '100px', objectFit: 'cover' }} />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Python" style={{ width: '100px', height: '100px', objectFit: 'cover' }} />
+        <img src="https://assets.stickpng.com/images/5847f5bdcef1014c0b5e489c.png" alt="HTML" style={{ width: '100px', height: '100px', objectFit: 'cover' }} />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="CSS" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
+        <img src="https://www.djangoproject.com/m/img/logos/django-logo-negative.png" alt="Django" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
+        <img src="https://1000logos.net/wp-content/uploads/2020/08/PostgreSQL-Logo.png" alt="PostgreSQL" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
+        <img src="https://bulma.io/assets/Bulma%20Logo.png" alt="Bulma" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="Bootstrap" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png" alt="AWS" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
+        <img src="https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png" alt="MongoDB" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
+    </section>
+</div>
 			<h1><br></br>Looking to contact me?</h1>
 	</div>
 	<div class="row">
   <h4 style={{ textAlign: 'center' }}>I'd love to hear from you!</h4>
 	</div>
-  <form action="https://formsubmit.co/ckearney1992@gmail.com" method="POST" >
-	<div class="row input-container">
-			<div class="col-xs-12">
-				<div class="styled-input wide">
-					<input type="text" name="name" required />
-					<label>Name</label> 
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<div class="styled-input">
-					<input type="text" name="email" required />
-					<label>Email</label> 
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<div class="styled-input" style={{float: 'right'}}>
-					<input type="text"  />
-					<label>Phone Number (optional)</label> 
-				</div>
-			</div>
-			<div class="col-xs-12">
-				<div class="styled-input wide">
-					<textarea name="message" required></textarea>
-					<label>Message</label>
-				</div>
-			</div>
-      <input type="hidden" name="_next" value="https://kearmododragon.com" /> 
-      <input type="hidden" name="_captcha" value="false" />
-			<div class="col-xs-12">
-      <button style={{ backgroundColor: '#1E90FF', borderRadius: '5px', padding: '10px 20px', color: '#fff', border: 'none' }}>Send Message</button>
+  <form action="https://formsubmit.co/ckearney1992@gmail.com" method="POST">
+      <div className="row input-container">
+        <div className="col-xs-12">
+          <div className="styled-input wide">
+            <input type="text" name="name" required />
+            <label>Name</label>
+          </div>
+        </div>
+        <div className="col-md-6 col-sm-12">
+          <div className="styled-input wide">
+            <input type="text" name="email" required />
+            <label>Email</label>
+          </div>
+        </div>
+        <div className="col-xs-12">
+          <div className="styled-input wide">
+            <textarea name="message" required></textarea>
+            <label>Message</label>
+          </div>
+        </div>
+        <input type="hidden" name="_next" value="https://kearmododragon.com" />
+        <input type="hidden" name="_captcha" value="false" />
+      </div>
+      <div className="row">
+  <div className="col-xs-12 text-center">
+    {/* New row for the button */}
+    <div className="col" style={{ textAlign: 'right', marginRight: '-15px' }}>
+      <div className="styled-input wide">
+        <button style={{ backgroundColor: '#1E90FF', borderRadius: '5px', padding: '10px 20px', color: '#fff', border: 'none' }}>Send Message</button>
+      </div>
+    </div>
+  </div>
+</div>
 
-			</div>
 
-	</div>
-  </form>
+    </form>
+
 </div></div>
         </section>
       </div></>
