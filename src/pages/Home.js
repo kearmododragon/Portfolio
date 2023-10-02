@@ -42,17 +42,17 @@ function About(props) {
       <div id="About">
         <p className="titles">About me.</p> </div>
       <section className="bio">
-        <p> I'm a 30 year old who studied software engineering in 2023. It's something i've long wanted to do and i'm proud of how much I got done. I did the course while working full time which had it's own challenges but thanks to my support network I made it through.</p><br></br>
+        <p>I'm a 30 year old who studied software engineering in 2023. It's something I've long wanted to do and I'm proud of how much I got done. I did the course while working full time which had its own challenges but thanks to my support network I made it through.</p><br></br>
 
-        <p>I'm still working on my skill level, which will be reflected in the ever changing nature of my potfolio. This isn't a CV though, I just want to let you know who I am.</p><br></br>
+        <p>I'm still working on my skill level, which will be reflected in the ever changing nature of my portfolio. This isn't a CV though, I just want to let you know who I am.</p><br></br>
 
-        <p>Just a few days before I started my course, my partner and I adopted a dog! {about.dog} was rescued from a shelter in Spain and she's our princess. She's a galgo, she's almost 2 years old and is equal parts really fast and fast asleep.</p><br></br>
+        <p>Just a few days before I started my course in February, my partner and I adopted a dog! {about.dog} was rescued from a shelter in Spain and she's our princess. She's a galgo, she's almost 2 years old and is equal parts really fast and fast asleep.</p><br></br>
 
-        <p>At the weekends I play football for R.K.H.S.V Heer in Maastricht. I'm entering my third season with the team having won the league in my first season, getting promoted and finishing second the next. I covered in goal during the end of the season and managed to pick up "Goalkeeper of the season" at the end of year awards. We are looking forward to our first season in the 4th Klasse.</p><br></br>
+        <p>On the weekends I play football for R.K.H.S.V Heer in Maastricht. I'm entering my third season with the team having won the league in my first season, getting promoted and finishing second the next. I covered in goal during the end of the season and managed to pick up "Goalkeeper of the season" at the end of year awards. We are looking forward to our first season in the 4th Klasse.</p><br></br>
 
-        <p>Beyond sport, work and my family I love to travel. Whether it's a solo trip, visiting friends of travelling with my partner getting away from where I'm based for a while is unbeatable. I've currently travelled to 40 different countries and i'm not looking to stop. My most favourite trip so far was to Canada and the United states. In 2 weeks, I flew to Toronto to watch the Maple Leafs play and see Niagra falls, then a flight to Chicago to explore the windy city. Next a drive to Cincinnati with a stop off at Casey to see the worlds largest rocking chair. I spent my birthday in Cincinnati watching the Bengals beat the Falcons before ending my trip with a few days in New York eating $1 pizza's. 
+        <p>Beyond sport, work and my family I love to travel. Whether it's a solo trip, visiting friends or travelling with my partner, getting away from where I'm based for a while is unbeatable. I've currently travelled to 43 different countries and I'm not looking to stop. My most favourite trip so far was to Canada and the United states. In 2 weeks, I flew to Toronto to watch the Maple Leafs play and see Niagara falls, then a flight to Chicago to explore the windy city. Next a drive to Cincinnati with a stop off at Casey to see the world's largest rocking chair. I spent my birthday in Cincinnati watching the Bengals beat the Falcons before ending my trip with a few days in New York eating $1 pizzas. <br></br>
         
-        My last trip, I went to Riga, Helsinki and Tallinn with my partner. On the 10th September I took part in the Tallinn marathon completing it in 4:41:11.</p>
+        On my most recent trip, I went to Riga, Helsinki and Tallinn with my partner. On the 10th September I took part in the Tallinn marathon completing it in 4:41:11.</p>
       </section>
       <div id="Projects">
         <p className="titles">Projects.</p></div>
