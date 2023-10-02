@@ -54,10 +54,22 @@ function About(props) {
         
         On my most recent trip, I went to Riga, Helsinki and Tallinn with my partner. On the 10th September I took part in the Tallinn marathon completing it in 4:41:11.</p>
       </section>
+      <div id="Skills">
+    <section className="images-skills">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="React" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Python" />
+        <img src="https://assets.stickpng.com/images/5847f5bdcef1014c0b5e489c.png" alt="HTML" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="CSS" />
+        <img src="https://www.djangoproject.com/m/img/logos/django-logo-positive.png" alt="Django" />
+        <img src="https://w7.pngwing.com/pngs/441/460/png-transparent-postgresql-plain-wordmark-logo-icon-thumbnail.png" alt="PostgreSQL" />
+        <img src="https://bulma.io/assets/Bulma%20Logo.png" alt="Bulma" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="Bootstrap" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png" alt="AWS" />
+        <img src="https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png" alt="MongoDB" />
+    </section>
+</div>
 
-      <p>Insert images here of the languages/systems i've used</p>
-      <p> Also get a list of everything that you have experience in</p>
-      <p>Python, React, HTML, CSS, Django, PostgreSQL, Bulma, Bootstrap, AWS, Mongo</p>
+
       <div id="Projects">
         <p className="titles">Projects.</p></div>
       <div className="container">
