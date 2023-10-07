@@ -1,3 +1,9 @@
+Front end deployed on: Netlify
+Back end deployed on: heroku
+
+
+
+
 "Dragon theme"
 
 
