@@ -106,7 +106,7 @@ function About(props) {
                 <h1><br></br>Looking to contact me?</h1>
               </div>
               <div class="row">
-                <h4 style={{ textAlign: 'center' }}>I'd love to hear from you!</h4>
+                <h4 style={{ textAlign: 'center' }}>I'd love to hear from you!!</h4>
               </div>
               <form action="https://formsubmit.co/ckearney1992@gmail.com" method="POST">
                 <div className="row input-container">
