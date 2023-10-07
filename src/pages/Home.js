@@ -133,7 +133,6 @@ function About(props) {
                 </div>
                 <div className="row">
                   <div className="col-xs-12 text-center">
-                    {/* New row for the button */}
                     <div className="col" style={{ textAlign: 'right', marginRight: '-15px' }}>
                       <div className="styled-input wide">
                         <button style={{ backgroundColor: '#1E90FF', borderRadius: '5px', padding: '10px 20px', color: '#fff', border: 'none' }}>Send Message</button>
