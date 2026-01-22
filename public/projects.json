@@ -1,8 +1,38 @@
 [
-
+      {
+    "name": "Tamagotchi 2026",
+    "live": "https://kearmododragon.github.io/Tamagotchi-2025/",
+    "git": "https://github.com/kearmododragon/Tamagotchi-2025",
+    "image": "https://i.imgur.com/Aivk1wB.png"
+  },
+      {
+    "name": "Trivia Game 2026",
+    "live": "https://kearmododragon.github.io/Trivia-Game-2025/",
+    "git": "https://github.com/kearmododragon/Trivia-Game-2025",
+    "image": "https://i.imgur.com/bXFJqqa.png"
+  },
   {
-    "Position": "Always last",
-    "name": "Under Construction",
-    "image": "https://i.imgur.com/Darl5KT.jpeg"
+    "name": "[My first Project] Blackjack",
+    "live": "https://kearmododragon.github.io/Project-1/",
+    "git": "https://github.com/kearmododragon/Project-1",
+    "image": "https://i.imgur.com/30OPyAT.png"
+  },
+  {
+    "name": "Pokemon Storage",
+    "live": "https://shrouded-meadow-86905.herokuapp.com/",
+    "git": "https://github.com/mgballou/Someones-PC",
+    "image": "https://i.imgur.com/vCioNDn.png"
+  },
+  {
+    "name": "StubSaver",
+    "live": "https://stubsaver.herokuapp.com/",
+    "git": "https://github.com/tpett20/StubSaver",
+    "image": "https://i.imgur.com/MfsjkF9.png"
+  },
+  {
+    "name": "Competitive Holidaying",
+    "live": "https://competitive-holidaying.herokuapp.com/",
+    "git": "https://github.com/kearmododragon/final-project",
+    "image": "https://i.imgur.com/yvtASEy.png"
   }
 ]
