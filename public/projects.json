@@ -28,5 +28,11 @@
     "live": "https://stubsaver.herokuapp.com/",
     "git": "https://github.com/tpett20/StubSaver",
     "image": "https://i.imgur.com/MfsjkF9.png"
+  },
+      {
+    "name": "My Github",
+    "live": "https://github.com/kearmododragon",
+    "git": "https://github.com/kearmododragon",
+    "image": "https://i.imgur.com/EPeOFoP.png"
   }
 ]
