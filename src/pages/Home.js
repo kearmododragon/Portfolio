@@ -33,28 +33,27 @@ function About(props) {
     <><div id="Home">
       <section className="big-box">
         <div className="text-box">
-          <p>Hi, I'm Ciaran.</p>
-          <p>Welcome to my portfolio.</p>
+<p>Hi, I’m Ciaran, a junior software developer focused on building interactive and user-friendly web applications.</p>
+
+<p>Welcome to my portfolio, where I showcase the projects I’ve been developing as I transition into a career in software engineering.
+</p>
         </div>
       </section>
 
 
       <div id="About">
         <p className="titles">About me.</p> </div>
-      <section className="bio">
-        <p>Hello. I'm Ciaran, a 33 year old who studied software engineering in 2023. It's something I've long wanted to do and I'm proud of how much I got done. I did the course while working full time which had its own challenges but thanks to my support network I made it through.</p><br></br>
+<section className="bio">
+  <p>I formally began studying software engineering in 2023, and I’m proud of what I’ve achieved while balancing a full-time job. That experience taught me consistency, problem-solving, and how to keep moving forward even when challenges arise.</p><br></br>
 
-        <p>I'm still working on my skill level and looking for work, which will be reflected in the ever changing nature of my portfolio. This isn't a CV though, I just want to let you know who I am. Apologies that the website is currently under construction looking at a major overhaul. Once my holidays are out the way I'll get this updated asap.</p><br></br>
+  <p>I'm continuing to develop my skills through hands-on projects, many of which you’ll see throughout this portfolio. As I grow, this site will evolve with me, reflecting both my progress and the standards I hold myself to. I’m currently looking for opportunities to contribute as a developer, continue learning, and be part of a team building meaningful products.</p><br></br>
 
-        <p>Just a few days before I started my course in February 2023, my partner and I adopted a dog! Soba was rescued from a shelter in Spain and she's our princess. She's a galgo, she's almost 4 years old and is equal parts really fast and fast asleep. Then, for her sake and definitely not ours, we adopted her a sister! Matcha! She's equally beautiful and fun. Also a galgo but slightly faster. She loves to play with her sister and they get on brilliantly.</p><br></br>
+  <p>Outside of coding, I love challenge and exploration. A few days before I started my course, my partner and I adopted a dog, Soba, from a shelter in Spain — she's our princess. Soon after, we adopted her sister, Matcha. Both are galgos, full of energy, and have taught me a lot about patience.</p><br></br>
 
-        <p>I recently retired from playing football, accepting my dream of playing for Man Utd was finally over. Who knew they weren't looking for an out of shape 30 something to change their fortunes? I loved playing football but sometimes you just have to accept that your time has come, now I focus more on running. I completed one in September, 2023, Tallinn. Coming in at a time of 4:41 I hope to smash that next time around. Other than running, I like to get out the rollerblades as I'm trying to learn. The intention is to transfer those skills into joining an amateur Ice Hockey team. They would have to be VERY amateur though.</p><br></br>
+  <p>I recently retired from playing football, but I continue to stay active with running and other activities. I completed a marathon in Tallinn in September 2023, coming in at 4:41, and I’m looking forward to improving that time. I also enjoy rollerblading and plan to transfer those skills into joining an amateur ice hockey team if the possibility ever arises. I do feel however moving to Barcelona in 2026 is going to but an end to that dream.</p><br></br>
 
-        <p>Beyond sport, work and my family I love to travel. Whether it's a solo trip, visiting friends or travelling with my partner, getting away from where I'm based for a while is unbeatable. I've currently travelled to 50 different countries and I'm not looking to stop. My favourite trip so far was to Canada and the United states. In 2 weeks, I flew to Toronto to watch the Maple Leafs play and see Niagara falls, then a flight to Chicago to explore the windy city. Next a drive to Cincinnati with a stop off at Casey to see the world's largest rocking chair. I spent my birthday in Cincinnati watching the Bengals beat the Falcons before ending my trip with a few days in New York eating $1 pizzas.
- <br></br>
-
-           On my most recent trip, I went to Lithuania with my partner and our 2 dogs. Driving from the Netherlands we stopped in Germany, Liechtenstein, Austria, Czechia and Poland! Next stop, Kazakhstan, Kyrgyzstan, Uzbekistan and Tajikistan!</p>
-      </section>
+  <p>Travel is a big part of my life. I’ve visited over 50 countries and enjoy both solo trips and adventures with my partner. Some highlights include exploring North America — from watching the Maple Leafs play in Toronto to driving across the US Midwest and finishing in New York and my nexttrip will be across Europe into Central Asia. These experiences have shaped the way I approach life and learning: with curiosity, planning, and flexibility.</p>
+</section>
 
       <div id="Projects">
         <p className="titles">Projects.</p></div>
