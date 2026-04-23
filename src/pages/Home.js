@@ -44,15 +44,64 @@ function About(props) {
       <div id="About">
         <p className="titles">About me.</p> </div>
 <section className="bio">
-  <p>I formally began studying software engineering in 2023, and I’m proud of what I’ve achieved while balancing a full-time job. That experience taught me consistency, problem-solving, and how to keep moving forward even when challenges arise.</p><br></br>
+  <p>
+    Hello. I'm Ciaran, a 33-year-old who studied software engineering in 2023. It's something I've long wanted to do, and I'm proud of how much I got done. I completed the course while working full time, which had its own challenges, but thanks to my support network I made it through.
+  </p>
+  <br />
 
-  <p>I'm continuing to develop my skills through hands-on projects, many of which you’ll see throughout this portfolio. As I grow, this site will evolve with me, reflecting both my progress and the standards I hold myself to. I’m currently looking for opportunities to contribute as a developer, continue learning, and be part of a team building meaningful products.</p><br></br>
+  <p>
+    At the moment, I'm restudying my bootcamp to make sure my skills are where they should be. I'm self-teaching using online tools and currently working through projects from the first unit again. Initially we had to build one project (I made a blackjack game), but I'm now aiming to complete them all, both to boost my portfolio and to cement my skills and confidence.
+  </p>
+  <br />
 
-  <p>Outside of coding, I love challenge and exploration. A few days before I started my course, my partner and I adopted a dog, Soba, from a shelter in Spain — she's our princess. Soon after, we adopted her sister, Matcha. Both are galgos, full of energy, and have taught me a lot about patience.</p><br></br>
+  <p>
+    I'm still working on my skill level and looking for work, which will be reflected in the ever-changing nature of my portfolio. This isn't a CV though, I just want to let you know who I am. Apologies that the website is currently under construction and undergoing a major overhaul. As of April 2026, I have moved from the Netherlands to Barcelona with my partner, Kamile, so I'm now looking for work over here.
+  </p>
+  <br />
 
-  <p>I recently retired from playing football, but I continue to stay active with running and other activities. I completed a marathon in Tallinn in September 2023, coming in at 4:41, and I’m looking forward to improving that time. I also enjoy rollerblading and plan to transfer those skills into joining an amateur ice hockey team if the possibility ever arises. I do feel however moving to Barcelona in 2026 is going to but an end to that dream.</p><br></br>
+  <p>
+    When it comes to building things, I really enjoy starting from scratch, but during my studies I also loved the challenge of jumping into other people's work. For now I'm focused on building games and interesting projects, but moving forward my goal is to work for an established company and contribute to existing codebases.
+  </p>
+  <br />
 
-  <p>Travel is a big part of my life. I’ve visited over 50 countries and enjoy both solo trips and adventures with my partner. Some highlights include exploring North America — from watching the Maple Leafs play in Toronto to driving across the US Midwest and finishing in New York and my nexttrip will be across Europe into Central Asia. These experiences have shaped the way I approach life and learning: with curiosity, planning, and flexibility.</p>
+  <p>
+    While I'm currently working solo 100% of the time, I really enjoyed collaborating during the bootcamp. Many of the projects were done in pairs or teams, and that was honestly my favourite part, seeing how other people think, and finding ways to combine different styles and ideas. I got to take on different roles too, from design to debugging to writing code, which I really enjoyed.
+  </p>
+  <br />
+
+  <p>
+    Just a few days before I started my course in February 2023, my partner and I adopted a dog. Soba was rescued from a shelter in Spain and she's our princess. She's a galgo, 4 years old, and equal parts incredibly fast and fast asleep. Then, for her sake (and definitely not ours) we adopted her a sister, Matcha. She's equally beautiful and fun, also a galgo, 2 years old but slightly smaller. They love each other and get on brilliantly.
+  </p>
+  <br />
+
+  <p>
+    I recently retired from playing football, finally accepting my dream of playing for Man Utd was over. Who knew they weren't looking for an out-of-shape 30-something to change their fortunes? I loved playing football, but sometimes you just have to accept when your time has passed. Now I focus more on running. I completed a marathon in September 2023 in Tallinn, finishing in 4:41, and I hope to beat that next time. I also spend time on rollerblades while I'm learning, with the long-term goal of joining an amateur ice hockey team. They would have to be VERY amateur though.
+  </p>
+  <br />
+
+  <p>
+    Beyond sport, work, and family, I love to travel. Whether it's solo trips, visiting friends, or travelling with my partner, getting away from where I'm based is unbeatable. I've travelled to over 50 countries and I'm not planning on stopping. My favourite trip so far was to Canada and the United States. In two weeks I flew to Toronto to watch the Maple Leafs and see Niagara Falls, then on to Chicago, followed by a drive to Cincinnati with a stop in Casey to see the world's largest rocking chair. I spent my birthday there watching the Bengals beat the Falcons, before ending the trip with a few days in New York eating $1 pizza.
+  </p>
+  <br />
+
+  <p>
+    On my most recent trip I went to Central Asia: Kazakhstan, Uzbekistan, Kyrgyzstan, and Tajikistan. As a vegetarian, the food was tricky at times, but the trip was incredible. The landscapes there are unreal, especially in Tajikistan, where about 95% of the country is mountains. The highlight for me wasn’t even climbing them, but an eight-hour drive around Issyk-Kul where we saw a demonstration from golden eagle hunters. They train their eagles from a young age and keep them for around 20 years before releasing them into the wild. I’ve wanted to see something like that since I was a child, so it was unforgettable. At one point during the demonstration, the eagle flew straight into my knee. Thankfully we were all fine.
+  </p>
+  <br />
+
+  <p>
+    Outside of that, I’ve recently been watching <i>Beef</i> on Netflix, though I’m more of a film person than a TV person. I also went to see Wu-Tang Clan live in Amsterdam with friends recently, which was incredible. Since COVID I’ve had a bit of a mindset shift: if there’s a chance to go to something live, I go. You never really know when you’ll get another shot.
+  </p>
+  <br />
+
+  <p>
+    I don’t read as much as I should, but the book I’m currently reading is <i>Frankenstein</i>. My favourite book is probably <i>He Used Thought as a Wife</i> by Tim Key, which I was lucky enough to get signed.
+  </p>
+  <br />
+
+  <p>
+    At the moment I’m mostly enjoying building my skills, settling into Barcelona, and seeing where things go next. First though, I need to build all my IKEA furniture and get properly set up.
+  </p>
 </section>
 
       <div id="Projects">
