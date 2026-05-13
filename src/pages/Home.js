@@ -141,9 +141,9 @@ function About(props) {
                 <div id="Skills" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                   <section className="images-skills" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '25px', maxWidth: '800px', width: '100%' }}>
                     <img src="https://icon.icepanel.io/Technology/svg/React.svg" alt="React" style={{ width: '100px', height: '100px', objectFit: 'cover' }} />
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Python" style={{ width: '100px', height: '100px', objectFit: 'cover' }} />
-                    <img src="https://assets.stickpng.com/images/5847f5bdcef1014c0b5e489c.png" alt="HTML" style={{ width: '100px', height: '100px', objectFit: 'cover' }} />
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="CSS" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
+                    <img src="https://icon.icepanel.io/Technology/svg/Python.svg" alt="Python" style={{ width: '100px', height: '100px', objectFit: 'cover' }} />
+                    <img src="https://icon.icepanel.io/Technology/svg/HTML5.svg" alt="HTML" style={{ width: '100px', height: '100px', objectFit: 'cover' }} />
+                    <img src="https://icon.icepanel.io/Technology/svg/CSS3.svg" alt="CSS" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
                     <img src="https://www.djangoproject.com/m/img/logos/django-logo-negative.png" alt="Django" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
                     <img src="https://1000logos.net/wp-content/uploads/2020/08/PostgreSQL-Logo.png" alt="PostgreSQL" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
                     <img src="https://bulma.io/assets/Bulma%20Logo.png" alt="Bulma" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
