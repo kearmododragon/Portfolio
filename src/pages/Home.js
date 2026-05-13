@@ -31,7 +31,7 @@ function About(props) {
   const loaded = () => (
     <>
       <div id="Home">
-        <section className="big-box">
+        <section class="big-box">
           <div className="text-box">
             <p>
               Hi, I’m Ciaran, a junior software developer focused on building
