@@ -144,12 +144,12 @@ function About(props) {
                     <img src="https://icon.icepanel.io/Technology/svg/Python.svg" alt="Python" style={{ width: '100px', height: '100px', objectFit: 'cover' }} />
                     <img src="https://icon.icepanel.io/Technology/svg/HTML5.svg" alt="HTML" style={{ width: '100px', height: '100px', objectFit: 'cover' }} />
                     <img src="https://icon.icepanel.io/Technology/svg/CSS3.svg" alt="CSS" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
-                    <img src="https://www.djangoproject.com/m/img/logos/django-logo-negative.png" alt="Django" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
-                    <img src="https://1000logos.net/wp-content/uploads/2020/08/PostgreSQL-Logo.png" alt="PostgreSQL" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
-                    <img src="https://bulma.io/assets/Bulma%20Logo.png" alt="Bulma" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="Bootstrap" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png" alt="AWS" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
-                    <img src="https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png" alt="MongoDB" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
+                    <img src="https://icon.icepanel.io/Technology/png-shadow-512/Django.png" alt="Django" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
+                    <img src="https://icon.icepanel.io/Technology/svg/PostgresSQL.svg" alt="PostgreSQL" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
+                    <img src="https://icon.icepanel.io/Technology/svg/Bulma.svg" alt="Bulma" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
+                    <img src="https://icon.icepanel.io/Technology/svg/Bootstrap.svg" alt="Bootstrap" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
+                    <img src="https://icon.icepanel.io/Technology/png-shadow-512/AWS.png" alt="AWS" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
+                    <img src="https://icon.icepanel.io/Technology/svg/MongoDB.svg" alt="MongoDB" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
                   </section>
                 </div>
                 <h1><br></br>Looking to contact me?</h1>
