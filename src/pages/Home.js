@@ -140,7 +140,7 @@ function About(props) {
               <div class="row">
                 <div id="Skills" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                   <section className="images-skills" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '25px', maxWidth: '800px', width: '100%' }}>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="React" style={{ width: '100px', height: '100px', objectFit: 'cover' }} />
+                    <img src="https://icon.icepanel.io/Technology/svg/React.svg" alt="React" style={{ width: '100px', height: '100px', objectFit: 'cover' }} />
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Python" style={{ width: '100px', height: '100px', objectFit: 'cover' }} />
                     <img src="https://assets.stickpng.com/images/5847f5bdcef1014c0b5e489c.png" alt="HTML" style={{ width: '100px', height: '100px', objectFit: 'cover' }} />
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="CSS" style={{ width: '10%', height: '10%', objectFit: 'cover' }} />
